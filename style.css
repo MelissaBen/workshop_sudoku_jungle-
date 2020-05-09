@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.divdiv{
+    
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 530px;
+    background-color: #784c89b8;
+    border-radius: 20px;
+   
+}
+
+table{
+    border-spacing: 5px;
+}
+
+.sudoku{
+    margin-bottom: 20px;
+    width: 530px;
+    height: 530px;
+}
+
+tr{
+    width: 300px;
+    height: 50px;
+}
+td{
+
+    width:200px;
+
+}
+
+#little{
+    margin: 10px;
+}
+
+.case{
+    border:solid 2px #95b2b8;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.btn1{
+    margin-left: 50%;    
+    transform: translateX(-50%);
+    
+    padding: 5px;
+    border-radius: 3px;
+    background-color:lightskyblue;
+    color:rgb(27, 93, 35);
+    font-size: 18px;
+    border:none;
+}
+
+        /* BARRE DE DES */
+
+body {
+    
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/background.jpg");
+    padding-top: 20px;
+}
+/* a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0.5rem;
+} */
+​
+.leap-hover {
+    background-color: orange !important;
+}
+​
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+ul > li {
+    margin: 8px;
+    background-color: blue;
+    min-height: 400px;
+}
+
+/* .chiffres {
+    display: flex;
+    flex-direction: row;
+} */
+.chiffre {
+    position: absolute;
+    /* top: 10px; */
+    
+    background-color: #307351;
+    color: white;
+    margin: 1rem;
+    height: 46px !important;
+    width: 58px !important;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 7px;
+    border:1px solid black;
+    
+}
+
+.empty{
+    color:lightskyblue;
+}
+
+.chiffre:nth-child(1) { left: 28%; bottom: 40px; }
+.chiffre:nth-child(2) { left: 33%; bottom: 40px; }
+.chiffre:nth-child(3) { left: 38%; bottom: 40px; }
+.chiffre:nth-child(4) { left: 43%; bottom: 40px; }
+.chiffre:nth-child(5) { left: 48%; bottom: 40px; }
+.chiffre:nth-child(6) { left: 53%; bottom: 40px; }
+.chiffre:nth-child(7) { left: 58%; bottom: 40px; }
+.chiffre:nth-child(8) { left: 63%; bottom: 40px; }
+.chiffre:nth-child(9) { left: 68%; bottom: 40px; }
+
+#pointer{
+    position: absolute;
+    z-index: 3;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    left: 500px;
+    top: 300px;
+}

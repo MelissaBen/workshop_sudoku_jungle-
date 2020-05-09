@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+<div class="divdiv">
+
+
+    <table class="sudoku">
+        <tr>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case der" id="1">4</td>
+                        <td class="case" id="2">9</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="3" >2</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="4" >8</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="5" >1</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="6" >3</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="7" >7</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="8" >6</td>
+                        <td class="case" id="9">5</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case" id="10">8</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="11" >6</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="12" >5</td>
+                    </tr>
+                    <tr>
+                        <td class="case" id="13">7</td>
+                        <td class="case" id="14">4</td>
+                        <td class="case" id="15">2</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="16" >1</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="17" >9</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="18" >3</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="19" >1</td>
+                        <td class="case" id="20">3</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="21" >7</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="22" >9</td>
+                        <td class="case" id="23">5</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="24" >6</td>
+                    </tr>
+                    <tr>
+                        <td class="case" id="25">8</td>
+                        <td class="case" id="26">4</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="27" >2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case" id="28">1</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="29" >8</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="30" >7</td>
+                    </tr>
+                    <tr>
+                        <td class="case" id="31">2</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="32" >3</td>
+                        <td class="case" id="33">9</td>
+                    </tr>
+                    <tr>
+                        <td class="case" id="34">6</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="35" >5</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="36" >4</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case" id="37">9</td>
+                        <td class="case" id="38">5</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="39" >4</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="40" >6</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="41" >7</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="42" >1</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="43" >3</td>
+                        <td class="case" id="44">2</td>
+                        <td class="case" id="45">8</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="46" >6</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="47" >2</td>
+                        <td class="case" id="48">3</td>
+                    </tr>
+                    <tr>
+                        <td class="case" id="49">5</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="50" >8</td>
+                        <td class="case" id="51">4</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="52" >7</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="53" >9</td>
+                        <td class="case" id="54">1</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="55" >3</td>
+                        <td class="case" id="56">7</td>
+                        <td class="case" id="57">8</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="58" >9</td>
+                        <td class="case" id="59">2</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="60" >1</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="61" >5</td>
+                        <td class="case" id="62">4</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="63" >6</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="64" >4</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="65" >1</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="66" >9</td>
+                    </tr>
+                    <tr>
+                        <td class="case" id="67">5</td>
+                        <td class="case" id="68">3</td>
+                        <td class="case" id="69">6</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="70" >2</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="71" >8</td>
+                        <td class="case" id="72">7</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <table class="little">
+                    <tr>
+                        <td class="case" id="73">2</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="74" >6</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="75" >5</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)"  id="76" >4</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="77" >7</td>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="78" >8</td>
+                    </tr>
+                    <tr>
+                        <td class="case empty"  ondrop="drop(event)" ondragover="allowDrop(event)" id="79"  ></td>
+                        <td class="case" id="80">1</td>
+                        <td class="case" id="81">9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    
+</div>  
+<button class="btn1" onclick="submit()">Tester</button>
+
+<div class="chiffres">
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">1</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">2</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">3</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">4</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">5</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">6</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">7</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">8</div>
+    <div data-leap-hover class="chiffre" draggable="true" ondragstart="drag(event)">9</div>
+</div>
+
+<div id="pointer"></div>
+​
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.1/leap.min.js" integrity="sha256-hS8r1wSQXr+/7aP23KZhoZYnr7IxxqksAgB50Va1G5I=" crossorigin="anonymous"></script>
+    <script src="leap.js" type="module"></script>
+    <script src="app.js" ></script>
+
+</body>
+</html>
